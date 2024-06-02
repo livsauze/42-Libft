@@ -41,6 +41,8 @@ Basic functions :
 
 Additional functions : 
 
+| NAME  | PROTOTYPE |
+| ------------- | ------------- |
 | `ft_substr` | char *ft_substr(char const *s, unsigned int start, size_t len); |
 | `ft_strjoin` | char *ft_strjoin(char const *s1, char const *s2); |
 | `ft_strtrim` | char *ft_strtrim(char const *s1, char const *set); |
@@ -63,6 +65,8 @@ typedef struct s_list
 }	t_list;
 ```
 
+| NAME  | PROTOTYPE |
+| ------------- | ------------- |
 | `ft_lstnew` | t_list *ft_lstnew(void *content); |
 | `ft_lstadd_front` | void ft_lstadd_front(t_list **lst, t_list *new); |
 | `ft_lstsize` | int ft_lstsize(t_list *lst); |
