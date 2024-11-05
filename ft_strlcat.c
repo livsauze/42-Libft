@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: livsauze <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: livsauze <livsauze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/07 15:41:53 by livsauze          #+#    #+#             */
-/*   Updated: 2023/10/07 15:46:53 by livsauze         ###   ########.fr       */
+/*   Updated: 2024/11/05 13:58:53 by livsauze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,12 +38,3 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 	dest[i] = '\0';
 	return (lens + lend);
 }
-/*
-int	main(void)
-{
-	const char	src[] = "Hello ";
-	char	dest[] = "World";
-	printf("%zu", ft_strlcat(dest, src, 8));
-	printf("\n%s", dest);
-	return (0);
-}*/

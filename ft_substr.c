@@ -6,7 +6,7 @@
 /*   By: livsauze <livsauze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/08 13:20:57 by livsauze          #+#    #+#             */
-/*   Updated: 2023/11/04 15:15:38 by livsauze         ###   ########.fr       */
+/*   Updated: 2024/11/05 13:59:43 by livsauze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,10 +39,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	str[j] = '\0';
 	return (str);
 }
-/*
-int	main(void)
-{
-	char src[]= "01234";
-	printf("%s", ft_substr(src, 10, 10));
-	return (0);
-}*/

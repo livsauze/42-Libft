@@ -6,7 +6,7 @@
 /*   By: livsauze <livsauze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 10:09:46 by livsauze          #+#    #+#             */
-/*   Updated: 2023/11/04 15:18:12 by livsauze         ###   ########.fr       */
+/*   Updated: 2024/11/05 13:59:39 by livsauze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,13 +29,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	newstr = ft_substr(s1, start, end - start);
 	return (newstr);
 }
-/*
-int	main(void)
-{
-	char	*newstr;
-
-	newstr = ft_strtrim("12Hello12", "12");
-	printf("%s", newstr);
-	free(newstr);
-	return (0);
-}*/

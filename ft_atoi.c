@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: livsauze <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: livsauze <livsauze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/04 13:33:07 by livsauze          #+#    #+#             */
-/*   Updated: 2023/10/04 14:51:01 by livsauze         ###   ########.fr       */
+/*   Updated: 2024/11/05 13:56:32 by livsauze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,12 +37,3 @@ int	ft_atoi(const char *str)
 	}
 	return (sign * result);
 }
-/*
-int	main(void)
-{
-	char	*tab;
-
-	tab = " 	 +18395";
-	printf("%d", ft_atoi(tab));
-	return (0);
-}*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: livsauze <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: livsauze <livsauze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 12:47:59 by livsauze          #+#    #+#             */
-/*   Updated: 2023/10/10 13:45:30 by livsauze         ###   ########.fr       */
+/*   Updated: 2024/11/05 13:59:03 by livsauze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,12 +30,3 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 	}
 	return (lens);
 }
-/*
-int	main(void)
-{
-	const char	src[] = "Hello ";
-	char	dest[] = "World";
-	printf("%zu\n", ft_strlcpy(dest, src, 3));
-	printf("%s", dest);
-	return (0);
-}*/

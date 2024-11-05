@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: livsauze <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: livsauze <livsauze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/07 15:03:43 by livsauze          #+#    #+#             */
-/*   Updated: 2023/10/07 15:28:52 by livsauze         ###   ########.fr       */
+/*   Updated: 2024/11/05 13:59:26 by livsauze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,9 +40,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (0);
 }
-/*
-int	main(void)
-{
-	printf("%s", ft_strnstr("lorem ipsum dolor sit amet", "dolor", 15));
-	return (0);
-}*/

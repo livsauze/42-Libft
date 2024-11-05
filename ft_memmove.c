@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: livsauze <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: livsauze <livsauze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 12:24:02 by livsauze          #+#    #+#             */
-/*   Updated: 2023/10/10 12:44:32 by livsauze         ###   ########.fr       */
+/*   Updated: 2024/11/05 13:57:52 by livsauze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,13 +39,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-/*
-int	main(void)
-{
-	char src[] = "Je t'aime";
-	char dest[] = "Beaucoup";
-	
-	ft_memmove(dest, src, 3);
-	printf("%s", dest);
-	return (0);
-}*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: livsauze <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: livsauze <livsauze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 14:04:00 by livsauze          #+#    #+#             */
-/*   Updated: 2023/10/11 14:18:40 by livsauze         ###   ########.fr       */
+/*   Updated: 2024/11/05 13:58:47 by livsauze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,13 +39,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	newstr[i] = '\0';
 	return (newstr);
 }
-/*
-int	main(void)
-{
-	char	s1[] = "Hello ";
-	char s2[] = "World";
-
-	printf("%s", ft_strjoin(s1, s2));
-	free(ft_strjoin(s1, s2));
-	return (0);
-}*/

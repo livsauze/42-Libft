@@ -6,7 +6,7 @@
 /*   By: livsauze <livsauze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 09:32:21 by livsauze          #+#    #+#             */
-/*   Updated: 2023/10/28 18:11:53 by livsauze         ###   ########.fr       */
+/*   Updated: 2024/11/05 13:58:31 by livsauze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,19 +81,3 @@ char	**ft_split(char const *s, char c)
 	}
 	return (str);
 }
-/*
-int	main(void)
-{
-	char const	tab[]= "    je czwuyegw   BONJOUR je SUIS   ";
-	char **str;
-	int	i = 0;
-
-	str = ft_split(tab, ' ');
-	while (str[i])
-	{
-		printf("%s\n", str[i]);
-		i++;
-	}
-	free(str);
-	return (0);
-}*/

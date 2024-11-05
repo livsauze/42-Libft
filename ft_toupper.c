@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: livsauze <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: livsauze <livsauze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/04 15:06:02 by livsauze          #+#    #+#             */
-/*   Updated: 2023/10/04 15:15:06 by livsauze         ###   ########.fr       */
+/*   Updated: 2024/11/05 13:59:56 by livsauze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,11 +18,3 @@ int	ft_toupper(int c)
 		c = c - 32;
 	return (c);
 }
-
-/*int	main()
-{
-	int c = 'g';
-
-	printf("%d", ft_toupper(c));
-	return (0);
-}*/

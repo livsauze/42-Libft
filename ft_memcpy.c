@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: livsauze <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: livsauze <livsauze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/04 12:06:42 by livsauze          #+#    #+#             */
-/*   Updated: 2023/10/04 12:55:19 by livsauze         ###   ########.fr       */
+/*   Updated: 2024/11/05 13:57:47 by livsauze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,12 +30,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return ((char *)dest);
 }
-/*
-int	main(void)
-{
-	char	src[] = "coucou";
-	char	dest[50];
-	
-	printf("%s", ft_memcpy(dest, src, 6);
-	return (0);
-}*/

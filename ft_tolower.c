@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: livsauze <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: livsauze <livsauze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/04 15:15:56 by livsauze          #+#    #+#             */
-/*   Updated: 2023/10/04 15:40:19 by livsauze         ###   ########.fr       */
+/*   Updated: 2024/11/05 13:59:51 by livsauze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,11 +18,3 @@ int	ft_tolower(int c)
 		c = c + 32;
 	return (c);
 }
-/*
-int   main()
-{
-        int c = 'g';
-
-        printf("%d", ft_tolower(c));
-        return (0);
-}*/

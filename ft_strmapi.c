@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: livsauze <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: livsauze <livsauze@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/14 12:20:07 by livsauze          #+#    #+#             */
-/*   Updated: 2023/10/14 15:58:43 by livsauze         ###   ########.fr       */
+/*   Updated: 2024/11/05 13:59:15 by livsauze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,29 +29,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int i, char c))
 	newstr[j] = '\0';
 	return (newstr);
 }
-/*
-char	*maj(unsigned int i, char c)
-{
-	char	*str;
-	str = NULL;
-	i = 0;
-	c = str[i];
-	while (str[i])
-	{
-		c = c - 32;
-		i++;
-	}
-	return (str);
-}
-int	main(void)
-{
-	char *str = "salut";
- 	char *newstr;
-	int	i;
-	
-	i = 0;
-	newstr = ft_strmapi(str, maj);
-	printf("%s\n", newstr);
-	free(newstr);
-	return (0);
-}*/
